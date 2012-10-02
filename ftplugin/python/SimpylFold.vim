@@ -4,7 +4,7 @@ endif
 let b:loaded_SimpylFold = 1
 
 let s:blank_regex = '^\s*$'
-let s:def_regex = '^\s*\%(class\|def\) \w\+'
+let s:def_regex = '^\s*\%(class\s*\w\+\|def\s*\w\+\|if\s*__name__\)'
 
 " Determine the number of containing class or function definitions for the
 " given line
